@@ -15,7 +15,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-    implementation ('net.dv8tion:JDA:VERSION') {
+    implementation ('net.dv8tion:JDA:4.2.0_222') {
         exclude module: 'opus-java'
     }
 }
